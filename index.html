@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="3600">
+<title>Programa de Producción — 02/06/2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#081828;--hdr:#0b2040;--azul:#1a3a6b;--ac:#1e8bd5;--claro:#d4e9f7;--par:#eef5fc;--w:#fff;--brd:#c0d5e8;--tx:#162840;--gr:#2ecc71}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100%;height:100%;overflow:hidden}
+body{font-family:'Barlow',sans-serif;background:var(--bg);display:flex;flex-direction:column;height:100vh}
+.hdr{background:linear-gradient(160deg,#0d2a4a,var(--hdr));border-bottom:3px solid var(--ac);padding:clamp(10px,1.5vh,20px) clamp(16px,3vw,44px);display:flex;align-items:center;justify-content:space-between;flex-shrink:0;box-shadow:0 4px 24px rgba(0,0,0,.5)}
+.ht{font-family:'Barlow Condensed',sans-serif;font-size:clamp(22px,4.5vw,70px);font-weight:800;color:var(--w);letter-spacing:3px;text-transform:uppercase;line-height:1}
+.hs{font-size:clamp(10px,1.1vw,17px);color:var(--ac);letter-spacing:4px;text-transform:uppercase;margin-top:4px;font-weight:600}
+.hf{text-align:right;flex-shrink:0}
+.hfl{display:block;font-size:clamp(9px,1vw,15px);color:rgba(255,255,255,.45);letter-spacing:3px;text-transform:uppercase;margin-bottom:2px}
+.hfv{font-family:'Barlow Condensed',sans-serif;font-size:clamp(26px,5vw,76px);font-weight:700;color:var(--w);letter-spacing:2px;line-height:1}
+.main{flex:1;display:flex;flex-direction:column;padding:clamp(8px,1.2vh,16px) clamp(14px,2.5vw,30px) 0;gap:clamp(6px,1vh,12px);overflow:hidden;min-height:0}
+.eh{display:flex;align-items:center;gap:14px;flex-shrink:0}
+.eht{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-size:clamp(18px,3vw,52px);font-weight:700;color:var(--ac);line-height:1}
+.ehl{flex:1;height:2px;background:linear-gradient(90deg,var(--ac) 0%,transparent 100%)}
+.ts{flex:1;overflow:auto;border-radius:8px;border:1px solid rgba(30,139,213,.25);box-shadow:0 8px 32px rgba(0,0,0,.45);min-height:0}
+table{width:100%;border-collapse:collapse;table-layout:fixed}
+thead{position:sticky;top:0;z-index:2}
+thead tr{background:linear-gradient(180deg,var(--azul),#0f2040)}
+th{font-family:'Barlow Condensed',sans-serif;font-size:clamp(11px,1.4vw,22px);font-weight:700;color:var(--w);text-align:left;padding:clamp(8px,1.2vh,14px) clamp(10px,1.6vw,22px);letter-spacing:1px;text-transform:uppercase;border-bottom:2px solid var(--ac);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+th:first-child{width:16%;border-right:1px solid rgba(255,255,255,.15)}
+tbody tr:nth-child(even){background:var(--par)}
+tbody tr:nth-child(odd){background:var(--w)}
+tbody tr{border-bottom:1px solid var(--brd);transition:background .15s}
+tbody tr:hover{background:#bcd8f0!important}
+td{padding:clamp(7px,.9vh,12px) clamp(10px,1.6vw,22px);font-size:clamp(11px,1.4vw,21px);color:var(--tx);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tl{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:clamp(12px,1.55vw,24px)!important;color:var(--azul)!important;background:var(--claro)!important;border-right:2px solid var(--ac)}
+.ftr{background:var(--hdr);border-top:1px solid rgba(30,139,213,.3);padding:clamp(5px,.8vh,10px) clamp(14px,2.5vw,30px);display:flex;justify-content:space-between;align-items:center;flex-shrink:0}
+.ft{font-size:clamp(9px,.95vw,14px);color:rgba(255,255,255,.4)}
+.rw{display:flex;align-items:center;gap:8px}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--gr);animation:p 2s ease-in-out infinite}
+@keyframes p{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.75)}}
+#rl{font-family:'Barlow Condensed',sans-serif;font-size:clamp(16px,2.2vw,34px);font-weight:600;color:var(--ac);letter-spacing:2px;min-width:90px}
+</style>
+</head>
+<body>
+<div class="hdr">
+  <div><div class="ht">Programa de Producción</div><div class="hs">HIPERPACK · Pantallas de Planta</div></div>
+  <div class="hf"><span class="hfl">Fecha de Hoy</span><div class="hfv">02/06/2026</div></div>
+</div>
+<div class="main">
+  <div class="eh"><span class="eht">HOY</span><div class="ehl"></div></div>
+  <div class="ts">
+    <table>
+      <thead><tr><th>LINEA</th><th>PEDIDO DE HOY</th><th>PEDIDO EXTRA DE HOY</th><th>PEDIDO EXTRA 2 DE HOY</th></tr></thead>
+      <tbody><tr><td class="tl">A - CORTE</td><td></td><td></td><td></td></tr>
+      <tr><td class="tl">A - MANGAS</td><td>95-ORBIS (20000 pza)</td><td>97-TACHIS (200 pza)</td><td>98-TACHIS (100 pza)</td></tr>
+      <tr><td class="tl">A - METALES</td><td>329-OP MOBILITY (52 pza)</td><td>337-OP MOBILITY (1 pza)</td><td>337-OP MOBILITY (1 pza)</td></tr>
+      <tr><td class="tl">A - PROTOTIPOS</td><td></td><td></td><td></td></tr>
+      <tr><td class="tl">A - TEXTILES</td><td>100-OP MOBILITY (360 pza)</td><td>100-OP MOBILITY (360 pza)</td><td>100-OP MOBILITY (225 pza)</td></tr>
+      <tr><td class="tl">A - SERIGRAFÍA</td><td>95-ORBIS (20000 pza)</td><td>106-DURAKON (26000 pza)</td><td>211-LEAR (357 pza)</td></tr>
+      <tr><td class="tl">L - ARTURO</td><td>100-OP MOBILITY (360 pza)</td><td>100-OP MOBILITY (225 pza)</td><td>100-OP MOBILITY (240 pza)</td></tr>
+      <tr><td class="tl">L - CARO</td><td>100-OP MOBILITY (240 pza)</td><td>100-OP MOBILITY (150 pza)</td><td>104-SIRBASA (1800 pza)</td></tr>
+      <tr><td class="tl">L - FABIOLA</td><td>147-ELENA ISOARD  (3000 pza)</td><td>147-ELENA ISOARD  (1900 pza)</td><td>100-OP MOBILITY (168 pza)</td></tr>
+      <tr><td class="tl">L - ISELA</td><td>96-NEFAB (35 pza)</td><td>100-OP MOBILITY (280 pza)</td><td>100-OP MOBILITY (140 pza)</td></tr>
+      <tr><td class="tl">L - MATY</td><td>103-WICPACK (300 pza)</td><td>247-CONTEYOR (843 pza)</td><td>247-CONTEYOR (2538 pza)</td></tr>
+      <tr><td class="tl">L - ALEXIS</td><td>100-OP MOBILITY (360 pza)</td><td>100-OP MOBILITY (225 pza)</td><td>100-OP MOBILITY (280 pza)</td></tr></tbody>
+    </table>
+  </div>
+</div>
+<div class="ftr">
+  <span class="ft">Actualizado: 02/06/2026 16:59 · Próxima recarga: en 1 hora</span>
+  <div class="rw"><span class="dot"></span><span id="rl">16:59:00</span></div>
+</div>
+<script>
+function tick(){const d=new Date();const z=n=>String(n).padStart(2,'0');document.getElementById('rl').textContent=z(d.getHours())+':'+z(d.getMinutes())+':'+z(d.getSeconds());}
+setInterval(tick,1000);tick();
+setTimeout(()=>location.reload(),3600000);
+</script>
+</body>
+</html>
